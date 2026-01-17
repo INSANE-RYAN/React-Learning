@@ -30,9 +30,9 @@ function PasswordGenerator() {
     }, [numall, length, specialChar, setPassword])
 
  return (
-        <div className="w-full max-w-2xl bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 px-6 py-4 rounded-2xl shadow-2xl flex flex-col gap-3 border border-slate-700">
+        <div className="w-full max-w-2xl bg-linear-to-br from-slate-900 via-slate-800 to-slate-900 px-6 py-4 rounded-2xl shadow-2xl flex flex-col gap-3 border border-slate-700">
             <div className="text-center">
-                <h1 className="text-3xl font-black bg-gradient-to-r from-blue-400 via-blue-500 to-purple-600 bg-clip-text text-transparent">Password Generator</h1>
+                <h1 className="text-3xl font-black bg-linear-to-r from-blue-400 via-blue-500 to-purple-600 bg-clip-text text-transparent">Password Generator</h1>
             </div>
 
             <div className="flex flex-col gap-2">
@@ -45,7 +45,7 @@ function PasswordGenerator() {
                     className="flex-1 px-3 py-2 bg-slate-700 text-white rounded-lg border-2 border-slate-600 focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-500/30 transition-all duration-200 font-mono text-m placeholder-slate-500"
                 />
                 <button onClick={() => navigator.clipboard.writeText(password)} 
-                className='font-bold bg-gradient-to-r from-blue-600 to-blue-700 text-white px-3 py-2 rounded-lg hover:from-blue-500 hover:to-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:ring-offset-2 focus:ring-offset-slate-900 transition-all duration-200 shadow-lg hover:shadow-blue-500/50 whitespace-nowrap text-xs'>Copy</button>
+                className='font-bold bg-linear-to-r from-blue-600 to-blue-700 text-white px-3 py-2 rounded-lg hover:from-blue-500 hover:to-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:ring-offset-2 focus:ring-offset-slate-900 transition-all duration-200 shadow-lg hover:shadow-blue-500/50 whitespace-nowrap text-xs'>Copy</button>
                 </div>
             </div>
 
@@ -89,7 +89,7 @@ function PasswordGenerator() {
 
                 <button
                     onClick={generatePassword}
-                    className="w-full lg:w-auto px-4 py-3 bg-gradient-to-r from-blue-600 via-blue-500 to-purple-600 text-white font-bold rounded-lg hover:from-blue-500 hover:via-blue-400 hover:to-purple-500 focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:ring-offset-2 focus:ring-offset-slate-900 transition-all duration-200 shadow-lg hover:shadow-blue-500/50 text-sm uppercase tracking-wide whitespace-nowrap"
+                    className="w-full lg:w-auto px-4 py-3 bg-linear-to-r from-blue-600 via-blue-500 to-purple-600 text-white font-bold rounded-lg hover:from-blue-500 hover:via-blue-400 hover:to-purple-500 focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:ring-offset-2 focus:ring-offset-slate-900 transition-all duration-200 shadow-lg hover:shadow-blue-500/50 text-sm uppercase tracking-wide whitespace-nowrap"
                 >
                     Generate
                 </button>
