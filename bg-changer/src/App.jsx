@@ -1,5 +1,10 @@
-export default function Background({count, setCount}) {
-  return (  
+import { useState } from 'react'
+
+
+function App() {
+  const [count, setCount] = useState(0)
+
+  return (
       <div className="w-full h-screen duration-200 width-full flex justify-center "
       style = {{"backgroundColor": count}}
       >
@@ -19,5 +24,6 @@ export default function Background({count, setCount}) {
      </div>
 
   )
-
 }
+
+export default App
