@@ -11,6 +11,7 @@ import ErrorBoundary from "./ErrorBoundary";
 import Login from "./Login";
 import Signup from "./Signup";
 import AuthLayout from "./AuthLayout";
+import RTE from "./RTE";
 export {
     Header,
     Footer,
@@ -24,5 +25,6 @@ export {
     Select,
     ErrorBoundary,
     Signup,
-    AuthLayout
+    AuthLayout,
+    RTE
 }
